@@ -11,8 +11,16 @@ toc_footers:
 search: true
 ---
 
+<aside class="success">We're in the process of migrating our documentation here. In the meantime, you can find our
+latest API guide <a target="_blank" href="http://www.youneeq.ca/wp-content/uploads/2016/10/Youneeq-Integration-Setup-Guide-Mar-23-2016.pdf">here</a>.
+</aside>
 
 # Get Started
+
+Youneeq provides a recommendation service to online publishers that targets content at individual users. To find out
+more, check out our <a target="_blank" href="http://www.youneeq.ca/">website</a>.
+
+On this page you will find documentation regarding how to integrate Youneeq services with your site.
 
 ## Recommendations
 
@@ -54,7 +62,7 @@ jQuery(document).ready(function ($) {
 					'content_id': content_id,
 					'observe': [{
 								'type': 'node',
-								'title': title, // Populate with
+								'title': title,
 								'create_date': create_date,
 								'description': description,
 								'image': image_url,
